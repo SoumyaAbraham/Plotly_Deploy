@@ -14,26 +14,42 @@ The customized dashboard has the following features:
   4. Gauge Chart: A chart showing the weekly washing frequency, displayed as a measure from 1-10 for each selected subject.
   5. Bubble Chart: A bubble chart to show the OTU IDs on the x axis and bubble color, the sample values as the y axis and marker size and the OTU labels as the hover-text value.
   
-  ## Demo:
+ ## Components:
   
   This is what the page looks like:
   
-  ![full_page](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/Screenshots/full_page.png)  
+  ![full_page](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/Screenshots/full_page_customized.png)
   
-  Taking a closer look, we have the Dropdown Menu, Demographic Info and Bar graph:
+  Taking a closer look, we have the following:
+  #### The title page with a brief introduction:
   
-  ![bar_graph](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/Screenshots/bar_graph.png)
+  ![jumbotron](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/Screenshots/titleWintro.png)
   
-  Gauge Chart:  
+  #### Drop Down Menu, Information Panel and Bar Graph: 
+  ##### (Notice, by default, Test Subject ID No. 940 is displayed)
   
-  ![gauge_chart](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/Screenshots/gauge_chart.png)
+  ![bar_graph](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/Screenshots/bar_graph_new.png)
   
-  Bubble Chart:
+  #### Gauge Chart:  
   
-  ![bubble_graph](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/Screenshots/bubble_chart.png)  
-  --
+  ![gauge_chart](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/Screenshots/gauge_chart_new.png)
   
-  You can find the code here:  
+  #### Bubble Chart:
+  
+  ![bubble_graph](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/Screenshots/bubble_chart_new.png)
+  
+  
+ ## Important Note! 
+
+You may notice the data does not load when you open the browser.  
+For security reasons, a local server must be run when loading an external file (like a json or csv file) into a JavaScript script file.  
+To load the page, open Git Bash and change directory to the project folder. Then type *python -m http.server*
+
+#### This is what it will look like:  
+
+![terminal](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/Screenshots/terminal.png)
+  
+ #### You can find the code here:  
   - [Bellybutton_Chart_Code.js](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/static/js/BellyButton_Chart_Code.js)  
   - [index.html](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/index.html)  
   - [sample data](https://github.com/SoumyaAbraham/Plotly_Deploy/blob/main/samples.json)  
